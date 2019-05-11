@@ -1,16 +1,14 @@
+/*
+ * hlist.h
+ * Copyright (C) 2019 Alex Tsanis
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
 #ifndef _KCOMPAT_HLIST_H
 #define _KCOMPAT_HLIST_H
-
-/*
- * Kernel sourcecode compatible lightweight single pointer list head useful
- * for implementing hash tables
- *
- * Copyright (c) 2019 Alex Tsanis <alextsanisbadlorg@gmail.com>
- *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms of the GNU Lesser General Public License version 2.1 as
- * published by the Free  Software Foundation.
- */
 
 #include <stddef.h>
 
